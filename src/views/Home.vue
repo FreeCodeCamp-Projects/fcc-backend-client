@@ -1,7 +1,9 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-layout>
+    <v-flex>
+        <HelloWorld msg="Welcome to Your Vue.js App"/>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>

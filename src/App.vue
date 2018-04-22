@@ -1,7 +1,13 @@
 <template>
   <div id="app">
-    <nav-bar title="FreeCodeCamp Backend Client"></nav-bar>
-    <router-view/>
+    <v-app>#
+      <nav-bar title="FreeCodeCamp Backend Client"></nav-bar>
+      <main>
+        <v-container fluid>
+          <router-view/>
+        </v-container>
+      </main>
+    </v-app>
   </div>
 </template>
 
