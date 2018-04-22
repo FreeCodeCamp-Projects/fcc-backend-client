@@ -5,19 +5,19 @@ import colors from 'vuetify/es5/util/colors'
 
 import App from './App.vue'
 import router from './router'
-
 import Panel from '@/components/Panel'
 
 Vue.config.productionTip = false
 
 Vue.use(Vuetify, {
   theme: {
-    primary: colors.green.darken1, // #E53935
-    secondary: colors.green.lighten3, // #FFCDD2
-    accent: colors.indigo.base // #3F51B5
+    primary: colors.green.darken1,
+    secondary: colors.green.lighten3,
+    accent: colors.indigo.base
   }
 })
 
+// Global Components
 Vue.component('panel', Panel)
 
 new Vue({
