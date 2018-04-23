@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-app>#
+    <v-app>
       <nav-bar title="FreeCodeCamp Backend Client"></nav-bar>
       <main>
         <v-container fluid>
@@ -28,6 +28,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+html {
+  overflow: hidden;
 }
 
 </style>
