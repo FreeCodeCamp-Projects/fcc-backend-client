@@ -1,9 +1,9 @@
 <template>
   <v-layout>
     <v-flex>
-        <div>
+        <panel title='Header Parser Service'>
             <h1>Header Parser Service</h1>
-        </div>
+        </panel>
     </v-flex>
   </v-layout>
 </template>

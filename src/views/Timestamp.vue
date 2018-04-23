@@ -1,9 +1,9 @@
 <template>
   <v-layout>
     <v-flex>
-        <div>
+        <panel title='Timestamp Service'>
             <h1>Timestamp Service</h1>
-        </div>
+        </panel>
     </v-flex>
   </v-layout>
 </template>

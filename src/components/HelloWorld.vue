@@ -41,8 +41,9 @@ a {
 }
 .grid-container {
   display: grid;
-  grid-template-rows: 300px 300px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 200px;
+  grid-auto-rows: 200px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 20px;
 }
 </style>

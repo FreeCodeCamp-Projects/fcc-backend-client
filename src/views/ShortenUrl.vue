@@ -1,9 +1,9 @@
 <template>
   <v-layout>
     <v-flex>
-        <div>
+        <panel title='URL Shortener Service'>
             <h1>URL Shortener Service</h1>
-        </div>
+        </panel>
     </v-flex>
   </v-layout>
 </template>

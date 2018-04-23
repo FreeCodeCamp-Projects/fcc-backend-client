@@ -31,7 +31,7 @@ export default {
 }
 
 html {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 </style>
