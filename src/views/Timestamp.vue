@@ -2,7 +2,7 @@
   <v-layout>
     <v-flex>
         <div>
-            <h1>Header Parser Service</h1>
+            <h1>Timestamp Parser Service</h1>
         </div>
     </v-flex>
   </v-layout>
@@ -11,7 +11,7 @@
 <script>
 
 export default {
-  name: 'fileMetadata',
+  name: 'timestamp',
   components: {
   }
 }
