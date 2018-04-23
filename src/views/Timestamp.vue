@@ -2,7 +2,7 @@
   <v-layout>
     <v-flex>
         <div>
-            <h1>Timestamp Parser Service</h1>
+            <h1>Timestamp Service</h1>
         </div>
     </v-flex>
   </v-layout>

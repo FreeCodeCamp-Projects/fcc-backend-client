@@ -1,6 +1,6 @@
 <template>
   <div class='grid-container'>
-    <panel v-for='(item, index) in items' :key='index' :title='item.name'></panel>
+    <panel v-for='(item, index) in items' :key='index' :title='item.name'><router-link :to="item.link">{{item.link}}</router-link></panel>
   </div>
 </template>
 
@@ -13,9 +13,9 @@ export default {
   data () {
     return {
       items: [
-        { name: 'Item 1', link: '/item1' },
-        { name: 'Item 2', link: '/item2' },
-        { name: 'Item 3', link: '/item3' },
+        { name: 'URL Shortener', link: 'shorten' },
+        { name: 'Request Header Parser', link: 'parser' },
+        { name: 'Timestamp', link: 'timestamp' },
         { name: 'Item 4', link: '/item4' }
       ]
     }
